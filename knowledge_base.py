@@ -1,5 +1,3 @@
-# 知识库
-
 import os
 import config_data as config    #导入自定义配置文件config_data.py文件
 import hashlib                  #Python 内置库，用于生成 MD5 哈希值

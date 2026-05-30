@@ -1,10 +1,10 @@
-md5_path="E:/RAG+Agent/RAG智能体开发/md5.text"
+md5_path="./md5.text"
 
 
 
 #Chroma
 collection_name="RAG"
-persist_directory="E:/RAG+Agent/RAG智能体开发/chroma_db"
+persist_directory="./chroma_db"
 
 
 
@@ -25,3 +25,11 @@ similarity_threshold=2          #检索返回的匹配文本数量
 #AI-model
 embedding_model="text-embedding-v4"
 chat_model="qwen3-max"
+
+
+#session_config
+session_config={
+    "configurable":{
+        "session_id":"user_01"
+    }
+}
